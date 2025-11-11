@@ -1,7 +1,8 @@
 plugins:
   - jekyll-relative-links
+  - jekyll-remote-theme
 relative_links:
   enabled: true
   collections: true
-include:
-  - tutorial.md
+
+remote_theme: pages-themes/slate@v0.2.0
